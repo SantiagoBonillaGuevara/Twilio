@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 public class Controller {
 
     @PostMapping("/notificacion")
-    public String aldeamo() {
+    public String twilio() {
         return "Twilio";
     }
 
